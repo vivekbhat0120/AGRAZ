@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers | AGRAZ Solutions LLP</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header id="header">
+    <div class="container navbar">
+      <a href="index.html" id="logo" class="logo"><span id="logo-name">AGRAZ</span> <span id="logo-suffix">Solutions LLP</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="career.html">Careers</a></li>
+          <li><a href="index.html#contact" class="btn-nav">Contact</a></li>
+        </ul>
+        <div class="nav-container">
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+          <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="careers-hero">
+    <div class="container">
+      <h1>Join Our Team</h1>
+      <p>We build products that matter. If you're passionate about software and want to grow with a fast-moving team, check our open positions and apply.</p>
+      <a href="#open-positions" class="btn btn-secondary">View Open Positions</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="open-positions" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>Open Positions</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div id="jobs-grid" class="jobs-grid"></div>
+      </div>
+    </section>
+
+    <section class="section-padding bg-light text-center">
+      <div class="container">
+        <h3>Didn't find a fit?</h3>
+        <p>Send your resume to <a href="mailto:careers@agrazsolutions.com">careers@agrazsolutions.com</a> — we're always interested in talented people.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (copied from index) -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h3 id="footer-company">AGRAZ <span>Solutions LLP</span></h3>
+        <p id="footer-text">Innovative digital solutions for a smarter future. Partner with us to build scalable software products.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a id="social-linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a id="social-github" href="#"><i class="fab fa-github"></i></a>
+          <a id="social-twitter" href="#"><i class="fab fa-twitter"></i></a>
+          <a id="social-instagram" href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="footer-year">2026</span> <span id="footer-name">AGRAZ Solutions LLP</span>. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="CompanyData.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
