@@ -42,8 +42,8 @@ window.CompanyData = {
     },
     {
       icon: "fas fa-pencil-ruler",
-      title: "UI/UX Design",
-      desc: "User-centric design interfaces that are intuitive, engaging, and aligned with your brand identity.",
+      title: "UI Development",
+      desc: "Crafting attractive and beautiful designs that are intuitive, engaging, and aligned with your brand identity.",
     },
     {
       icon: "fas fa-briefcase",
@@ -118,8 +118,6 @@ window.CompanyData = {
           <li>Opportunities for skill development and career growth.</li>
           <li>A supportive and inclusive team culture.</li>
         </ul>
-        <h4>How to Apply</h4>
-        <p>Please send your resume, portfolio, and a brief cover letter to <a href="mailto:careers@agrazsolutions.com">careers@agrazsolutions.com</a>. We look forward to welcoming you to our team!</p>
       `,
     },
     {
@@ -138,8 +136,8 @@ window.CompanyData = {
         <h4>Key Responsibilities</h4>
         <ul>
           <li>Lead the design and development of complex and scalable web applications.</li>
-          <li>Collaborate closely with UX/UI designers, back-end developers, and product managers to deliver high-quality features.</li>
-          <li>Ensure the technical feasibility of UI/UX designs and optimize applications for maximum speed and scalability.</li>
+          <li>Collaborate closely with UI designers, back-end developers, and product managers to deliver high-quality features.</li>
+          <li>Ensure the technical feasibility of UI designs and optimize applications for maximum speed and scalability.</li>
           <li>Implement best practices for code quality, testing, and documentation.</li>
           <li>Mentor and support junior developers, conduct code reviews, and foster a culture of continuous improvement.</li>
         </ul>
@@ -165,8 +163,6 @@ window.CompanyData = {
           <li>Opportunities for professional growth and skill enhancement.</li>
           <li>A collaborative, inclusive, and innovative work environment.</li>
         </ul>
-        <h4>How to Apply</h4>
-        <p>Please send your updated resume, portfolio, and a cover letter detailing your experience to <a href="mailto:careers@agrazsolutions.com">careers@agrazsolutions.com</a>. We look forward to having you on board!</p>
       `,
     },
     {
@@ -177,7 +173,8 @@ window.CompanyData = {
       experience: "0-1 years / Freshers",
       desc: "Assist in designing, developing, and maintaining server-side applications and APIs using Go, Python, Java, or Node.js.",
       applyEmail: "careers@agrazsolutions.com",
-      applyUrl:"https://docs.google.com/forms/d/e/1FAIpQLSfuyMmx5q0hUnLXGXEQJ3cvpXorxP3ydUSD9cDFPSwFUcgfZQ/viewform?usp=publish-editor",
+      applyUrl:
+        "https://docs.google.com/forms/d/e/1FAIpQLSfuyMmx5q0hUnLXGXEQJ3cvpXorxP3ydUSD9cDFPSwFUcgfZQ/viewform?usp=publish-editor",
       details: `
         <h3>Backend Developer (Fresher/Junior/Intern)</h3>
         <p><strong>Location:</strong> Remote (Karnataka, India)</p>
@@ -201,8 +198,6 @@ window.CompanyData = {
           <li>Flexible remote working environment within Karnataka.</li>
           <li>Opportunities to work on real-world projects and grow your backend development skills.</li>
         </ul>
-        <h4>How to Apply</h4>
-        <p>Please send your resume, portfolio, and a brief cover letter to <a href="mailto:careers@agrazsolutions.com">careers@agrazsolutions.com</a>. We look forward to welcoming you to our team!</p>
       `,
     },
     {
@@ -213,7 +208,8 @@ window.CompanyData = {
       experience: "2+ years",
       desc: "Design and implement high-performance backend systems and APIs using Go, Python, or Java.",
       applyEmail: "careers@agrazsolutions.com",
-      applyUrl:"https://docs.google.com/forms/d/e/1FAIpQLSdZVOCmwyvaPLkF-pL14KQDkPDvVhp304sfsmj6H9R2KeBL-w/viewform?usp=publish-editor",
+      applyUrl:
+        "https://docs.google.com/forms/d/e/1FAIpQLSdZVOCmwyvaPLkF-pL14KQDkPDvVhp304sfsmj6H9R2KeBL-w/viewform?usp=publish-editor",
       details: `
         <h3>Senior Backend Developer</h3>
         <p><strong>Location:</strong> Remote (Karnataka, India)</p>
@@ -246,14 +242,12 @@ window.CompanyData = {
           <li>Opportunities for leadership and professional development.</li>
           <li>A collaborative and innovative work environment.</li>
         </ul>
-        <h4>How to Apply</h4>
-        <p>Please send your updated resume, portfolio, and a cover letter detailing your experience to <a href="mailto:careers@agrazsolutions.com">careers@agrazsolutions.com</a>. We look forward to having you on board!</p>
       `,
     },
   ],
 
   contact: {
-    address: "AGRAZ Solutions LLP, Tech Park, Karnataka",
+    address: "AGRAZ Solutions LLP, Sirsi, Karnataka",
     email: "info@agrazsolutions.com",
     phone: "+91-XXXXXXXXXX",
   },

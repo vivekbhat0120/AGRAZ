@@ -655,7 +655,7 @@ body.dark-mode .modal-body::-webkit-scrollbar-thumb:hover {
   height: 40px;
   border-radius: 50%;
   border: none;
-  background: transparent;
+  background: #fff;
   cursor: pointer;
 }
 
@@ -671,6 +671,16 @@ body.dark-mode .modal-body::-webkit-scrollbar-thumb:hover {
   min-width: 120px;
 }
 @media (max-width: 480px) {
+  .modal-close {
+    top: 2px !important;
+    right: 2px !important;
+    font-size: 1rem !important;
+    width: 20px;
+    height: 20px;
+  }
+  .modal-header h2 {
+    margin-top: 10px;
+  }
   .modal-actions {
     flex-direction: column-reverse;
     gap: 10px;
@@ -749,7 +759,7 @@ body.dark-mode .modal-body::-webkit-scrollbar-thumb:hover {
 
   &:hover {
     box-shadow: var(--shadow-hover);
-    cursor: pointer;
+    /* cursor: pointer; */
   }
 }
 
@@ -908,6 +918,11 @@ footer {
   font-size: 1.5rem;
 }
 
+.footer-col p {
+  width: 80%;
+  margin-bottom: 1.5rem;
+}
+
 .footer-col h3 span {
   color: var(--primary-color);
   font-weight: 400;
@@ -960,7 +975,21 @@ footer {
   color: #b2bec3;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 600px) {
+  .footer-content {
+    text-align: center;
+  }
+
+  .footer-col p {
+    margin: 0 auto 1.5rem;
+  }
+
+  .social-links a {
+    margin: 0 5px;
+  }
+}
+
+@media (min-width: 600px) {
   .footer-content {
     grid-template-columns: 2fr 1fr 1fr;
   }

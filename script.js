@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.className = "product-card fade-in";
         card.innerHTML = `<div class="product-icon"><i class="${p.icon}"></i></div>
                           <div class="product-info"><h3>${p.title}</h3><p>${p.desc}</p>
-                          <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a></div>`;
+                          <!-- <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a> --></div>`;
         productsGrid.appendChild(card);
         observer.observe(card);
       });
@@ -331,7 +331,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const footerYear = document.getElementById("footer-year");
     const footerName = document.getElementById("footer-name");
     const footerPara = document.getElementById("footer-text");
-    if (footerYear) footerYear.textContent = new Date().getFullYear();
+    if (footerYear) footerYear.textContent = "2025";
     if (footerName)
       footerName.textContent = `${data.company?.name} ${data.company?.suffix}`;
     if (footerPara && data.company?.footerDesc)
