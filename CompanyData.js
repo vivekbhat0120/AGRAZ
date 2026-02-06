@@ -247,15 +247,15 @@ window.CompanyData = {
   ],
 
   contact: {
-    address: "AGRAZ Solutions LLP, Sirsi, Karnataka",
-    email: "info@agrazsolutions.com",
-    phone: "+91-XXXXXXXXXX",
+    address: "#105 Anugraha Makkalatayimane Po Hegdekatta SIRSI (UK) KARNATAKA 581403",
+    email: "agraz@agrazllp.com",
+    phone: "9986285763, 9886756985",
   },
 
   social: {
-    linkedin: "https://www.linkedin.com/company/agrazsolutions",
-    github: "https://github.com/agrazsolutions",
-    twitter: "https://twitter.com/agrazsolutions",
-    instagram: "https://instagram.com/agrazsolutions",
+    call:"9886756985",
+    whatsapp:"9986285763",
+    mail:"agraz@agrazllp.com",
+    linkedin: "https://www.linkedin.com/in/agrazllp",
   },
 };
