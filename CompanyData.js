@@ -70,8 +70,8 @@ window.CompanyData = {
     },
     {
       icon: "fas fa-users-cog",
-      title: "HRMS Lite",
-      desc: "Simple and efficient Human Resource Management System for startups.",
+      title: "ERP & CRM",
+      desc: "Streamlining operations and enhancing customer engagement in one unified solution.",
     },
   ],
 
@@ -113,6 +113,7 @@ window.CompanyData = {
         </ul>
         <h4>What We Offer</h4>
         <ul>
+          <li>Competitive salary and benefits.</li>
           <li>Flexible working hours and remote work within Karnataka.</li>
           <li>Mentorship and guidance from experienced developers.</li>
           <li>Opportunities for skill development and career growth.</li>
@@ -194,6 +195,7 @@ window.CompanyData = {
         </ul>
         <h4>What We Offer</h4>
         <ul>
+          <li>Competitive salary and benefits.</li>
           <li>Mentorship and hands-on experience.</li>
           <li>Flexible remote working environment within Karnataka.</li>
           <li>Opportunities to work on real-world projects and grow your backend development skills.</li>
